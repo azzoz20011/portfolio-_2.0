@@ -1,5 +1,3 @@
-import heroImg from '../assets/hero.png'
-
 function Hero() {
   return (
     <main id="top" className="hero-section">
@@ -16,7 +14,7 @@ function Hero() {
         </div>
       </div>
       <div className="portrait-frame">
-        <img src={heroImg} alt="Abdulaziz" />
+        <span className="portrait-placeholder" role="img" aria-label="Abdulaziz portrait placeholder">AA</span>
       </div>
     </main>
   )

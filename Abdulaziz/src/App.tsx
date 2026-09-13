@@ -2,16 +2,10 @@ import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import PageEnd from './components/PageEnd'
+import CertificateSection from './components/CertificateSection'
 import PortfolioSection, { type PortfolioSectionContent } from './components/PortfolioSection'
 
 const sections: PortfolioSectionContent[] = [
-  {
-    id: 'certificates',
-    label: 'Certificates',
-    title: 'Professional certificates',
-    description: 'A selection of the certificates I have earned and the skills each one represents.',
-    details: ['Certificate name', 'Issuing organization', 'Completion year'],
-  },
   {
     id: 'university',
     label: 'Education',
@@ -35,6 +29,7 @@ function App() {
       <Header />
       <Hero />
       <div className="sections" aria-label="Portfolio sections">
+        <CertificateSection />
         {sections.map((section) => (
           <PortfolioSection key={section.id} section={section} />
         ))}

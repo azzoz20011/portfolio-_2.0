@@ -1,9 +1,13 @@
 import { useRef, useState } from 'react'
-import awsCloudPractitioner from '../assets/Screenshot 2026-09-12 151519.png'
-import cdmp from '../assets/Screenshot 2026-09-12 151537.png'
-import dataEngineeringAws from '../assets/Screenshot 2026-09-12 151707.png'
-import programmingDataScience from '../assets/Screenshot 2026-09-12 151732.png'
-import dataStreaming from '../assets/Screenshot 2026-09-12 151830.png'
+
+const S3_CERTIFICATES_URL =
+  'https://azzoz2001.com/portfolio/certificates'
+
+const awsCloudPractitioner = `${S3_CERTIFICATES_URL}/aws-cloud-practitioner.png`
+const cdmp = `${S3_CERTIFICATES_URL}/cdmp.png`
+const dataEngineeringAws = `${S3_CERTIFICATES_URL}/data-engineering-aws.png`
+const programmingDataScience = `${S3_CERTIFICATES_URL}/programming-data-science.png`
+const dataStreaming = `${S3_CERTIFICATES_URL}/data-streaming.png`
 
 type Certificate = {
   id: number

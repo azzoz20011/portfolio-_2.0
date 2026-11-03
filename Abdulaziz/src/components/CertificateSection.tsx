@@ -9,7 +9,7 @@ const dataEngineeringAws = `${S3_CERTIFICATES_URL}/data-engineering-aws.png`
 const programmingDataScience = `${S3_CERTIFICATES_URL}/programming-data-science.png`
 const Power_BI_Fundamentals = `${S3_CERTIFICATES_URL}/Power_BI_Fundamentals.png`
 const Unilever_Supply_Chain_Data = `${S3_CERTIFICATES_URL}/Unilever_Supply_Chain_Data.png`
-
+const dataStreaming = `${S3_CERTIFICATES_URL}/data-Streaming.png`
 type Certificate = {
   id: number
   title: string

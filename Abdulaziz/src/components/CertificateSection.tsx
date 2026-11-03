@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 
 const S3_CERTIFICATES_URL =
-  'https://d2fsgixn06zxyl.cloudfront.net/portfolio/certificates'
+  'https://d2fsgixn06xzyl.cloudfront.net/portfolio/certificates'
 
 const awsCloudPractitioner = `${S3_CERTIFICATES_URL}/aws-cloud-practitioner.png`
 const cdmp = `${S3_CERTIFICATES_URL}/cdmp.png`

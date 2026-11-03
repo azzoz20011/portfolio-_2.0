@@ -7,7 +7,8 @@ const awsCloudPractitioner = `${S3_CERTIFICATES_URL}/aws-cloud-practitioner.png`
 const cdmp = `${S3_CERTIFICATES_URL}/cdmp.png`
 const dataEngineeringAws = `${S3_CERTIFICATES_URL}/data-engineering-aws.png`
 const programmingDataScience = `${S3_CERTIFICATES_URL}/programming-data-science.png`
-const dataStreaming = `${S3_CERTIFICATES_URL}/data-streaming.png`
+const Power_BI_Fundamentals = `${S3_CERTIFICATES_URL}/Power_BI_Fundamentals.png`
+const Unilever_Supply_Chain_Data = `${S3_CERTIFICATES_URL}/Unilever_Supply_Chain_Data.png`
 
 type Certificate = {
   id: number
@@ -59,6 +60,27 @@ const certificates: Certificate[] = [
     description: 'Practical programming for data analysis using Python and the tools commonly used in data science workflows.',
     image: programmingDataScience,
   },
+  {
+    id: 6,
+    title: 'Power BI Fundamentals',
+    issuer: 'DataCamp',
+    date: 'October 25, 2026',
+    description: 'Fundamentals of Power BI for data visualization and business intelligence.',
+    image: Power_BI_Fundamentals,
+  },
+  {
+    id: 7,
+    title: 'Unilever Supply Chain Data Analyst',
+    issuer: 'Coursera',
+    date: 'October 26, 2026',
+    description: `learn in-demand skills like data analysis, demand forecasting, and
+      cost analysis  with strong problem solving, time management, and
+      organizational skills. You will learn the foundational skills employers
+      seek for entry level supply chain analysts roles and get hands-on
+      experience cleaning, filtering, sorting, and presenting data.
+      `,
+    image: Unilever_Supply_Chain_Data,
+  }
 ]
 
 function CertificateSection() {

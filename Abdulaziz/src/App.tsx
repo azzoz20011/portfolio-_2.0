@@ -3,29 +3,22 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import PageEnd from './components/PageEnd'
 import CertificateSection from './components/CertificateSection'
+import ProjectSection from './components/ProjectSection'
 import PortfolioSection, { type PortfolioSectionContent } from './components/PortfolioSection'
 
 const sections: PortfolioSectionContent[] = [
   {
     id: 'university',
-    label: 'Education',
+    label: 'Background',
     title: 'University education',
-    description: 'My academic background and the foundation that shaped my professional direction.',
-    details: ['University name', 'Degree or major', 'Graduation year'],
-  },
-  {
-    id: 'dashboard',
-    label: 'Featured project',
-    title: 'Dashboard I worked on',
-    description: 'A practical dashboard project where I helped turn data and user needs into a clear interface.',
-    details: ['Dashboard name', 'Technologies used', 'My contribution'],
-    action: { href: '#', label: 'Open dashboard' },
+    description: 'My academic foundation and the learning path that shaped my interest in data, technology, and practical problem-solving.',
+    details: ['Academic foundation', 'Continuous learning', 'Data-focused development'],
   },
 ]
 
 function App() {
   return (
-    <>
+    <div className="site-shell">
       <Header />
       <Hero />
       <div className="sections" aria-label="Portfolio sections">
@@ -33,9 +26,10 @@ function App() {
         {sections.map((section) => (
           <PortfolioSection key={section.id} section={section} />
         ))}
+        <ProjectSection />
       </div>
       <PageEnd />
-    </>
+    </div>
   )
 }
 

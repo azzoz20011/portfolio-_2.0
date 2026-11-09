@@ -2,18 +2,20 @@ function Hero() {
   return (
     <main id="top" className="hero-section">
       <div className="hero-copy">
-        <h1><span>Abdulaziz Alamoudi.</span></h1>
+        <p className="eyebrow">Data professional</p>
+        <h1>Abdulaziz<br />Alamoudi.</h1>
         <p className="summary">
-          I am a developer focused on creating thoughtful digital experiences. This portfolio brings
-          together my certificates, university background, and selected project work.
+          With a Computer Science degree from KFUPM, I focus on Data Engineering, Cloud Technologies, and Data Analytics. I have hands-on experience building scalable data pipelines, developing cloud-based solutions, and transforming complex data into meaningful insights.
         </p>
         <div className="hero-actions">
-          <a className="primary-link" href="#certificates">Explore my Certificates</a>
-          <a className="secondary-link" href="#dashboard">View my Dashboard</a>
+          <a className="primary-link" href="#dashboard">Explore my work <span aria-hidden="true">↘</span></a>
+          <a className="secondary-link" href="#certificates">View credentials</a>
         </div>
       </div>
       <div className="portrait-frame">
-        <span className="portrait-placeholder" role="img" aria-label="Abdulaziz portrait placeholder">AA</span>
+        <span className="portrait-placeholder" role="img" aria-label="Abdulaziz monogram">
+          <span>AA</span><small>Data · Cloud · Design</small>
+        </span>
       </div>
     </main>
   )

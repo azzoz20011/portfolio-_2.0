@@ -2,9 +2,10 @@ function PageEnd() {
   return (
     <footer className="page-end">
       <div>
-        <p className="closing-line">Thank you for visiting my portfolio.</p>
+        <p className="eyebrow">Let’s connect</p>
+        <p className="closing-line">Have a project or opportunity in mind?</p>
       </div>
-      <a href="#top">Back to top <span aria-hidden="true">&#8593;</span></a>
+      <div className="footer-links"><a href="mailto:hello@example.com">Send an email ↗</a><a href="#top">Back to top ↑</a></div>
     </footer>
   )
 }

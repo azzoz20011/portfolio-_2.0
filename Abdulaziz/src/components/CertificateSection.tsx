@@ -123,7 +123,9 @@ function CertificateSection() {
     <section className="certificate-section" id="certificates">
       <div className="certificate-heading">
         <div>
-          <h2>Professional certificates</h2>
+          <p className="eyebrow">Selected learning</p>
+          <h2>Professional credentials</h2>
+          <p>A growing collection of certifications across data, cloud, and analytics.</p>
         </div>
         <div className="roller-controls">
           <button type="button" onClick={() => scrollCertificates(-1)} aria-label="Previous certificates" title="Previous certificates">&#8592;</button>

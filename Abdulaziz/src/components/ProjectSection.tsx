@@ -5,6 +5,7 @@ const S3_CERTIFICATES_URL =
 
 const website_log_dashboard = `${S3_CERTIFICATES_URL}/website_log_dashboard.png`
 const dashboard_excel = `${S3_CERTIFICATES_URL}/dashboard_excel.png`
+const transit_dashboard = `${S3_CERTIFICATES_URL}/transit_dashboard.png`
 
 type Project = {
   id: number
@@ -35,11 +36,20 @@ const projects: Project[] = [
   {
     id: 2,
     title: 'Data jobs salaries dashboard',
-    date: 'november 11, 2026',
+    date: 'november 9, 2026',
     description: `The dashboard try to simplify the status of data jobs around the world`,
     image: dashboard_excel,
     repo: 'https://github.com/azzoz20011/excel_first_pr/tree/main',
     url: 'https://1drv.ms/x/c/96b9c3e9424174f3/IQBhnCaZg0DVTpNvNqeGUoB5AWFEAy6YJR514BziEgaFZlc?e=8qe0Pt',
+  },
+  {
+    id: 3,
+    title: 'transit dashboard',
+    date: 'november 11, 2026',
+    description: `The dashboard try to simplify the status of data jobs around the world`,
+    image: transit_dashboard,
+    repo: 'https://github.com/azzoz20011/kafka_transit_stream',
+    url: 'https://www.azzoz2001.com/transit/',
   },
 ]
 
